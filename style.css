@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+}
+
+/* ====Nav Bar==== */
+.nav-Link li a {
+    font-size: 16px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.navbar-nav li a:hover {
+    color: #ff0000d8;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    padding-bottom: 5px !important;
+}
+
+form button {
+    border: 1px solid gray;
+}
+
+form button:hover {
+    border: 1px solid #ff0000d8 !important;
+    background-color: #ff0000d8 !important;
+}
+
+/* =====Hero Section==== */
+.heroContainer .carousel-item video {
+    height: 100vh !important;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+@media(max-width:576px) {
+    .heroContainer .carousel-slide {
+        height: 50vh !important;
+    }
+}
+
+.heroContainer .build {
+    position: absolute;
+    bottom: -90px !important;
+    left: 35%;
+    text-align: center;
+    color: white;
+}
+
+.heroContainer .carousel-caption i {
+    border: 2px solid red;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+/* ===== Details Container===== */
+.col-lg-6 .content1 h5 {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content1 h2 {
+    font-size: 19.2px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content1 h3 {
+    font-size: 19.2px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content1 p {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 i {
+    border: 2px solid red;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+.detailsContainer .info {
+    position: relative;
+}
+
+.col-lg-6 .content1 {
+    position: absolute;
+    color: #ffff;
+    top: 50%;
+    left: 22%;
+}
+
+.col-lg-6 .content2 h5 {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content2 h3 {
+    font-size: 19.2px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content2 p {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .vc {
+    aspect-ratio: 16/9 !important;
+    object-fit: cover;
+    width: 100%;
+}
+
+.col-lg-6 img {
+    aspect-ratio: 16/9 !important;
+    object-fit: cover;
+    width: 100%;
+}
+
+.col-lg-6 .content2 {
+    position: absolute;
+    color: #ffff;
+    top: 60%;
+    left: 30%;
+}
+
+.col-lg-6 .content3 h5 {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content3 h3 {
+    font-size: 19.2px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content3 p {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content3 {
+    position: absolute;
+    color: #ffff;
+    top: 60%;
+    left: 30%;
+}
+
+.col-lg-6 .content4 h5 {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content4 h3 {
+    font-size: 19.2px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content4 p {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.col-lg-6 .content4 {
+    position: absolute;
+    color: #ffff;
+    top: 60%;
+    left: 35%;
+}
+
+@media(max-width:576px) {
+    .col-lg-6 .content1 {
+        left: 10%;
+        top: 30%;
+    }
+
+    .col-lg-6 .content2 {
+        top: 35%;
+        left: 20%;
+    }
+
+    .col-lg-6 .content3 {
+        top: 35%;
+        left: 25%;
+    }
+
+    .col-lg-6 .content4 {
+        top: 35%;
+        left: 20%;
+    }
+
+}
+
+/* ====Map Container==== */
+.col-lg-10 img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 90%;
+}
+
+.col-lg-3 h1 {
+    font-size: 60px;
+    color: red;
+}
+.mapContainer .salman .col-lg-3{
+    box-shadow: none !important;
+}
+
+/* ====Quality Container==== */
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item .title {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+@media(max-width:576px) {
+    .carousel-item .title {
+        left: 20%;
+    }
+}
+
+.qualityContainer .title p {
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.qualityContainer .title i {
+    border: 2px solid red;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+.quality::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(135deg, #020515, #FFFFFF);
+    opacity: 0.5;
+}
+
+.carousel-item .title {
+    color: #ffff;
+}
+
+/* ====Address Container==== */
+.addressContainer #product {
+    width: 30%;
+}
+
+.addressContainer .row li {
+    list-style-type: none;
+    line-height: 2rem;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+
+.addressContainer .row {
+    overflow-x: hidden !important;
+}
+
+.col-lg-2 h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.col-lg-2 .icon i {
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.col-lg-2 button {
+    padding: 10px 37px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.addressContainer .col-lg-12 p {
+    font-size: 12px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+    background-color: #212429;
+    color: #fff;
+}
+
+.col-lg-2 li:hover {
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+    color: #ff0000d8;
+}
+
+.col-lg-2 .icon i:hover {
+    background-color: #020515;
+    color: white;
+}
+
+.col-lg-2 button:hover {
+    background-color: #ff0000d8;
+    color: #ffff;
+    border: 1px solid #ff0000d8;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* =====SANY Group Product====== */
+.productContainer .row:hover{
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+.col-lg-12 img {
+    object-fit: cover !important;
+    aspect-ratio: 16/9 !important;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.productContainer .col-lg-2 p {
+    margin-top: 10px;
+}
+
+.productContainer .col-lg-2 p:hover,
+p.active {
+    border-bottom: 2px solid #dd0d0d;
+    color: #ff0000d8;
+    padding-bottom: 20px;
+}
+
+@media(max-width:576px) {
+    .col-lg-2 img {
+        width: 300px;
+
+    }
+
+    .productContainer .col-lg-2 p:hover,
+    p.active {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .productContainer .col-lg-2 p:hover {
+        border-bottom: none;
+        color: #ff0000d8;
+        padding-bottom: 0;
+    }
+}
+/* =====Product Details==== */
+
+.productDetails form{
+    height: 100vh !important;
+}
+.col-lg-4 input{
+    width: 90%;
+    margin-left: 10px !important;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px 10px;
+}
+.col-lg-4 ::placeholder{
+    font-size: 20px; 
+}
+.col-lg-4 .check input{
+    width: 15px;
+}
+.form-select{
+    border-radius: 0 !important;
+    width: 90% !important;
+}
+.col-lg-12 h2{
+    font-size: 24px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+    font-weight: bold !important;
+}
+.col-lg-6 p{
+    font-size: 16px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+}
+.col-lg-8 .row:hover{
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+/* ====Service===== */
+
+.serviceContainer .col-lg-12 h1{
+    font-size: 43.2px;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+    font-weight: bold;
+}
+.col-lg-3 h4{
+    text-align: center;
+    padding: 20px 0;
+    background-color:white;
+    font-family: 'Noto Sans', 'Helvetica Neue', Arial, 'microsoft Yahei';
+    font-weight: bold;
+}
+.col-lg-3{
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+.col-lg-3 h4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.col-lg-3 img{
+    padding: 10px;
+}
